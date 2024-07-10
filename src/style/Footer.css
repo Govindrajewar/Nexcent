@@ -1,0 +1,96 @@
+.footer{
+    height: 70vh;
+    width: 100%;
+    background-color: #263238;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+.footer-start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 40%;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon-header{
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.footer-header{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-middle-data{
+    line-height: 24px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-list a{
+    color: white;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.sites{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+
+}
+
+.site{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.footer-input{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color:azure;
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border: none;
+    background-color: azure;
+    padding: 10px;
+}
+
+.send-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #15803D;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer-last {
+    margin-top: -75px;
+}
