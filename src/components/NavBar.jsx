@@ -21,8 +21,8 @@ function NavBar() {
       </div>
       <div className="buttons">
       <IoMoon className="moon"/>
-        <button>Sign Up</button>
-        <button>Login</button>
+        <button className="navbar-btn">Sign Up</button>
+        <button className="navbar-btn">Login</button>
       </div>
     </div>
   );
