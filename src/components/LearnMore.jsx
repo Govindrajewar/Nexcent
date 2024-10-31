@@ -8,7 +8,9 @@ function LearnMore() {
         <img src={data} alt="" />
       </div>
       <div className="sidebar">
-        <div className="main-header">How to design your site footer like we did</div>
+        <div className="main-header">
+          How to design your site footer like we did
+        </div>
         <div className="description">
           Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
           augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque

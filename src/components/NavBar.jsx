@@ -12,15 +12,15 @@ function NavBar() {
         <div className="title-name">Nexcent</div>
       </div>
       <div className="navigation-bar">
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Features</a>
-        <a href="#">Product</a>
-        <a href="#">Testimonial</a>
-        <a href="#">FAQ</a>
+        <a href="#Home">Home</a>
+        <a href="#Services">Services</a>
+        <a href="#Features">Features</a>
+        <a href="#Product">Product</a>
+        <a href="#Testimonial">Testimonial</a>
+        <a href="#FAQ">FAQ</a>
       </div>
       <div className="buttons">
-      <IoMoon className="moon"/>
+        <IoMoon className="moon" />
         <button className="navbar-btn">Sign Up</button>
         <button className="navbar-btn">Login</button>
       </div>

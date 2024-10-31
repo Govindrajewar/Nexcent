@@ -1,10 +1,7 @@
 import "../style/Footer.css";
 import logo from "../assets/NavBar/logo.jpeg";
-
 import { IoLogoInstagram } from "react-icons/io5";
-import { FaTwitterSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaTwitterSquare, FaYoutube, FaFacebook } from "react-icons/fa";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
 function Footer() {
@@ -38,37 +35,37 @@ function Footer() {
         <div className="footer-header">Company</div>
 
         <div>
-          <a>About Us</a>
+          <a href="#AboutUs">About Us</a>
         </div>
         <div>
-          <a>Blog</a>
+          <a href="#Blog">Blog</a>
         </div>
         <div>
-          <a>Contact Us</a>
+          <a href="#ContactUs">Contact Us</a>
         </div>
         <div>
-          <a>Pricing</a>
+          <a href="#Pricing">Pricing</a>
         </div>
         <div>
-          <a>Testimonials</a>
+          <a href="#Testimonials">Testimonials</a>
         </div>
       </div>
       <div className="footer-list">
         <div className="footer-header">Support</div>
         <div>
-          <a>Help Center</a>
+          <a href="#HelpCenter">Help Center</a>
         </div>
         <div>
-          <a>Terms of Service</a>
+          <a href="#TermsOfService">Terms of Service</a>
         </div>
         <div>
-          <a>Legal</a>
+          <a href="#Legal">Legal</a>
         </div>
         <div>
-          <a>Privacy Policy</a>
+          <a href="#PrivacyPolicy">Privacy Policy</a>
         </div>
         <div>
-          <a>Status</a>
+          <a href="#Status">Status</a>
         </div>
       </div>
       <div className="footer-list footer-last ">

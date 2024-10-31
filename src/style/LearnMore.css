@@ -1,35 +1,35 @@
-.learnMore{
-    height: 90vh;
-    width: 100%;
-    background-color: aliceblue;
+.learnMore {
+  height: 90vh;
+  width: 100%;
+  background-color: aliceblue;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.main-header{
-    font-size: 38px;
-    font-weight: 500;
+.main-header {
+  font-size: 38px;
+  font-weight: 500;
 }
 
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
-.learnMore-btn{
-    font-size: 20px;
-    font-weight: 300;
-    color: white;
-    background-color: #15803D;
-    border: none;
-    padding: 10px 20px;
+.learnMore-btn {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  background-color: #15803d;
+  border: none;
+  padding: 10px 20px;
 }
 
-.description{
-    margin: 20px 0px;
-    line-height: 24px;
+.description {
+  margin: 20px 0px;
+  line-height: 24px;
 }

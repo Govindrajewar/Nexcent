@@ -1,56 +1,57 @@
-.NavBar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 100px;
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px;
 }
 
-.title{
-    display: flex;
-    align-items: center;
+.title {
+  display: flex;
+  align-items: center;
 }
 
-.title-name{
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
+.title-name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.navigation-bar a{
-    margin: 10px;
+.navigation-bar a {
+  margin: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
+.NavBar a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.navbar-btn{
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    background-color: #15803D;
-    color: white;
+.navbar-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #15803d;
+  color: white;
 }
 
-.logo{
-    height: 30px;
-    margin-top: 7px;
+.logo {
+  height: 30px;
+  margin-top: 7px;
 }
 
-.buttons{
-    display: flex;
-    align-items: center;
+.buttons {
+  display: flex;
+  align-items: center;
 }
 
-.moon{
-    cursor: pointer;
-    margin-right: 10px;
-    font-size: 24px;
+.moon {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 24px;
 }

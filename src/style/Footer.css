@@ -1,96 +1,102 @@
-.footer{
-    height: 70vh;
-    width: 100%;
-    background-color: #263238;
-    color: white;
+.footer {
+  height: 70vh;
+  width: 100%;
+  background-color: #263238;
+  color: white;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 
-    text-align: center;
+  text-align: center;
 }
 
-.footer-start{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 40%;
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
 }
 
-.footer-icon{
-    display: flex;
-    align-items: center;
+.footer-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 40%;
 }
 
-.footer-icon-header{
-    font-size: 40px;
-    font-weight: 500;
-    margin-left: 15px;
+.footer-icon {
+  display: flex;
+  align-items: center;
 }
 
-.footer-header{
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 20px;
+.footer-icon-header {
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 15px;
 }
 
-.footer-middle-data{
-    line-height: 24px;
+.footer-header {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.footer-list{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+.footer-middle-data {
+  line-height: 24px;
 }
 
-.footer-list a{
-    color: white;
-    line-height: 26px;
-    cursor: pointer;
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
-.sites{
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: space-between;
-
+.footer-list a {
+  color: white;
+  line-height: 26px;
+  cursor: pointer;
 }
 
-.site{
-    font-size: 26px;
-    cursor: pointer;
+.sites {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
 }
 
-.footer-input{
-    border: 1px solid #000000;
-    border-radius: 10px;
-    background-color:azure;
-    color: black;
-    padding: 10px;
-    display: flex;
-    align-items: center;
+.site {
+  font-size: 26px;
+  cursor: pointer;
 }
 
-input{
-    border: none;
-    background-color: azure;
-    padding: 10px;
+.footer-input {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: azure;
+  color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.send-btn{
-    border: none;
-    border-radius: 10px;
-    background-color: #15803D;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
+input {
+  border: none;
+  background-color: azure;
+  padding: 10px;
+  outline: none;
+}
+
+.send-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #15803d;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .footer-last {
-    margin-top: -75px;
+  margin-top: -75px;
 }

@@ -1,33 +1,34 @@
-.register{
-    height: 90vh;
-    width: 90vw;
-    background-color: aliceblue;
-    padding: 0 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.register {
+  height: 90vh;
+  width: 90vw;
+  background-color: aliceblue;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header-text{
-    font-size: 70px;
-    font-weight: 500;
-    margin-bottom: 20px;
+.header-text {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.upperLine{
-    color:black;
+.upperLine {
+  color: black;
 }
 
-.lowerLine{
-    color: green;
+.lowerLine {
+  color: green;
 }
 
-.register-btn{
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    background-color: #15803D;
-    color: white;
-    margin-top: 25px;
+.register-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #15803d;
+  color: white;
+  margin-top: 25px;
 }

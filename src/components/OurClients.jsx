@@ -6,7 +6,6 @@ import logo3 from "../assets/OurClients/03.svg";
 import logo4 from "../assets/OurClients/04.svg";
 import logo5 from "../assets/OurClients/05.svg";
 import logo6 from "../assets/OurClients/06.svg";
-
 import memberLogo from "../assets/OurClients/down/member.svg";
 import clubLogo from "../assets/OurClients/down/club.svg";
 import navLogo from "../assets/OurClients/down/nat.svg";
@@ -30,14 +29,14 @@ function OurClients() {
       <div className="sub-header">
         Manage your entire community in a single system
       </div>
-      <div className="lower-text">Who is Nextcent suitable for?</div>
+      <div className="lower-text">Who is Nexcent suitable for?</div>
       <div className="cards">
         <div className="card">
           <div>
             <img src={memberLogo} alt="" />
           </div>
           <div className="card-header">
-            Membership <br /> Organisations
+            Membership <br /> Organizations
           </div>
           <div className="card-text">
             Our membership management software <br />
@@ -52,7 +51,7 @@ function OurClients() {
           </div>
           <div className="card-header">
             Membership <br />
-            Organisations
+            Organizations
           </div>
           <div className="card-text">
             Our membership management software <br />
@@ -67,7 +66,7 @@ function OurClients() {
           </div>
           <div className="card-header">
             Membership <br />
-            Organisations
+            Organizations
           </div>
           <div className="card-text">
             Our membership management software <br />
